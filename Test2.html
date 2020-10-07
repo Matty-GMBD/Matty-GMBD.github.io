@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Testing</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+  <h2>CREATIVE DAPAT TAYO</h2>
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#aaa;"> 
+  <center>Wala lang</center>
+  <video  controls height="250" width= "250" type = "video/mp4" src= "C:\Users\gabed\Desktop\20200925_190046.mp4" ></video>
+  
+  </div>
+  <div class="column middle" style="background-color:#bbb;">
+ <center> Genevieve Nava
+  
+   <p>Bumabagal ang madaling araw 
+Nabubuo ang hating gabi
+Liwanag na nakikita natin sa ibabaw 
+Ngunit mas pinili natin manatili sa dilim at huwag ipagsabi </p>
+<p> </p>
+<p>Hindi sa kadahilanan na di kaya ipaglaban
+O di kaya nahihiya sa mga husgahan 
+Kundi dahil sa takot na baka mawala ka sa akin 
+Hindi natin hawak ang mundo baka kasi magiba ang ihip ng hangin</p>
+<p> </p>
+<p>Tayo lang ang nakakakita ng sinag sa mundong kulay abo 
+Nasilayan ng ating balintataw ang kulay , kahit sa mata ng iba'y malabo 
+Ginusto nating simulan ang ating sariling kwento 
+Kakalabanin ang mga pagsubok kahit pa ang mundo</p>
+</center>
+  
+  </div>
+  <div class="column side" style="background-color:#ccc;">
+  <center>Matty Dalope</center>
+  <img src="C:\Users\gabed\OneDrive\EVETHINGRY\Designerist\_Socrates T-Shirt.png"height="250" width= "250">
+  
+  
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footlong</p>
+</div>
+
+</body>
+</html>
